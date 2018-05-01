@@ -1039,7 +1039,7 @@
         },
         "accel_support": {
           "__compat": {
-            "description": "<code>\"Accel\"</code> support",
+            "description": "<code>\"Accel\"</code> as a valid parameter",
             "support": {
               "webview_android": {
                 "version_added": "48"
@@ -1083,8 +1083,8 @@
             },
             "status": {
               "experimental": false,
-              "standard_track": true,
-              "deprecated": false
+              "standard_track": false,
+              "deprecated": true
             }
           }
         }
